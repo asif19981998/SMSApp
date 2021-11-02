@@ -20,5 +20,6 @@ namespace SMS.Models
         public long? DeletedById { get; set; }
         public DateTime? DeletedOn { get; set; }
         public virtual ICollection<Upazila> Upazila { get; set; }
+        public virtual ICollection<Stock> Stocks { get; set; }
     }
 }

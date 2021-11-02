@@ -33,17 +33,10 @@ namespace sms.Controllers
         //{
         //    return _service.GetAll();
         //}
-        [HttpGet]
-        public ActionResult<IEnumerable<Product>> GetProduct()
+        [HttpGet("Get")]
+        public ICollection<Product> GetProduct()
         {
-            var data = _service.GetAll()
-                .Select(x => new Product()
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                  
-                }).ToList();
-
+            var data = _service.GetAll();
             return data;
         }
 
@@ -56,13 +49,13 @@ namespace sms.Controllers
         }
 
         // POST api/<ProductController>
-        [HttpPost]
-        public async Task<ActionResult<Product>> Post([FromForm] Product productModel)
+        [HttpPost("Create")]
+        public async Task<ActionResult<Product>> Post(Product productModel)
         {
           
             bool isSubmitterd = _service.Add(productModel);
             if (isSubmitterd)
-                return StatusCode(200);
+                return productModel;
             return Ok("Not Saved");
         }
 

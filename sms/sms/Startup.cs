@@ -54,6 +54,14 @@ namespace sms
             app.UseHttpsRedirection();
 
             app.UseRouting();
+            app.UseCors(options =>
+            {
+
+                options.WithOrigins(new[] { "http://localhost:3000" });
+                options.AllowAnyMethod();
+                options.AllowAnyHeader();
+                options.AllowCredentials();
+            });
 
             app.UseAuthorization();
 

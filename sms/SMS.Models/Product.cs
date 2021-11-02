@@ -15,6 +15,7 @@ namespace SMS.Models
         public bool IsDeleted { get; set; }
         public long? DeletedById { get; set; }
         public DateTime? DeletedOn { get; set; }
+        public virtual ICollection<Stock> Stocks { get; set; }
        
     }
 }

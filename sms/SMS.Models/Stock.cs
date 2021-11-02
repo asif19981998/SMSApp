@@ -7,16 +7,20 @@ using System.Threading.Tasks;
 
 namespace SMS.Models
 {
-    public class Upazila : IDeleteAble
+    public class Stock : IDeleteAble
     {
         public long Id { get; set; }
-        public string Name { get; set; }
-        public string Code { get; set; }
-        public long DistrictId { get; set; }
+        public long ProductId { get; set; }
+        public virtual Product Product { get; set; }
+        public int Total { get; set; }
+        public long DistictId { get; set; }
         public virtual District District { get; set; }
+        public long UpazilaId { get; set; }
+        public virtual Upazila Upazila { get; set; }
         public bool IsDeleted { get; set; }
         public long? DeletedById { get; set; }
         public DateTime? DeletedOn { get; set; }
-        public virtual ICollection<Stock> Stocks { get; set; }
+
     }
+    
 }
