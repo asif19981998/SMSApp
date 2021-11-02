@@ -17,3 +17,5 @@ E:\stock manage viva\sms\SMSBase\obj\Debug\net5.0\SMSBase.csproj.CopyComplete
 E:\stock manage viva\sms\SMSBase\obj\Debug\net5.0\SMSBase.dll
 E:\stock manage viva\sms\SMSBase\obj\Debug\net5.0\ref\SMSBase.dll
 E:\stock manage viva\sms\SMSBase\obj\Debug\net5.0\SMSBase.pdb
+E:\stock manage viva\sms\SMSBase\bin\Debug\net5.0\SMS.Models.dll
+E:\stock manage viva\sms\SMSBase\bin\Debug\net5.0\SMS.Models.pdb

@@ -1482,6 +1482,20 @@
           "lib/netstandard1.3/System.Xml.XmlSerializer.dll": {}
         }
       },
+      "Base/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "SMS.Model.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/Base.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Base.dll": {}
+        }
+      },
       "SMS.DataBaseContext/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -1523,6 +1537,10 @@
       "SMS.Repositories.Abastractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Base": "1.0.0",
+          "SMS.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SMS.Repositories.Abastractions.dll": {}
         },
@@ -5741,6 +5759,11 @@
         "system.xml.xmlserializer.4.3.0.nupkg.sha512",
         "system.xml.xmlserializer.nuspec"
       ]
+    },
+    "Base/1.0.0": {
+      "type": "project",
+      "path": "../Base/Base.csproj",
+      "msbuildProject": "../Base/Base.csproj"
     },
     "SMS.DataBaseContext/1.0.0": {
       "type": "project",

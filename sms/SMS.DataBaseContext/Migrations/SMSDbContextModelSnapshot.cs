@@ -29,8 +29,17 @@ namespace SMS.DataBaseContext.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long?>("DeletedById")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
                     b.Property<long>("DivisonId")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -47,6 +56,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 1L,
                             Code = "001Di",
                             DivisonId = 1L,
+                            IsDeleted = false,
                             Name = "Kishoreganj"
                         },
                         new
@@ -54,6 +64,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 2L,
                             Code = "002Di",
                             DivisonId = 1L,
+                            IsDeleted = false,
                             Name = "Gazipur"
                         },
                         new
@@ -61,6 +72,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 3L,
                             Code = "003Di",
                             DivisonId = 1L,
+                            IsDeleted = false,
                             Name = "Manikganj"
                         });
                 });
@@ -75,6 +87,15 @@ namespace SMS.DataBaseContext.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long?>("DeletedById")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
+
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
 
@@ -87,12 +108,14 @@ namespace SMS.DataBaseContext.Migrations
                         {
                             Id = 1L,
                             Code = "001D",
+                            IsDeleted = false,
                             Name = "Dhaka"
                         },
                         new
                         {
                             Id = 2L,
                             Code = "002D",
+                            IsDeleted = false,
                             Name = "Khulna"
                         });
                 });
@@ -134,8 +157,17 @@ namespace SMS.DataBaseContext.Migrations
                     b.Property<string>("Code")
                         .HasColumnType("nvarchar(max)");
 
+                    b.Property<long?>("DeletedById")
+                        .HasColumnType("bigint");
+
+                    b.Property<DateTime?>("DeletedOn")
+                        .HasColumnType("datetime2");
+
                     b.Property<long>("DistrictId")
                         .HasColumnType("bigint");
+
+                    b.Property<bool>("IsDeleted")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Name")
                         .HasColumnType("nvarchar(max)");
@@ -152,6 +184,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 1L,
                             Code = "001U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Kishoreganj Sadar"
                         },
                         new
@@ -159,6 +192,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 2L,
                             Code = "002U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Bhairab"
                         },
                         new
@@ -166,6 +200,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 3L,
                             Code = "003U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Bajitpur"
                         },
                         new
@@ -173,6 +208,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 4L,
                             Code = "004U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Kuliarchar"
                         },
                         new
@@ -180,6 +216,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 5L,
                             Code = "005U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Pakundia"
                         },
                         new
@@ -187,6 +224,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 6L,
                             Code = "006U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Itna"
                         },
                         new
@@ -194,6 +232,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 7L,
                             Code = "007U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Karimganj"
                         },
                         new
@@ -201,6 +240,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 8L,
                             Code = "008U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Katiadi"
                         },
                         new
@@ -208,6 +248,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 9L,
                             Code = "009U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Ashtagram"
                         },
                         new
@@ -215,6 +256,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 10L,
                             Code = "0010U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Mithamin"
                         },
                         new
@@ -222,6 +264,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 11L,
                             Code = "0011U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Tarail"
                         },
                         new
@@ -229,6 +272,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 12L,
                             Code = "0012U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Hossainpur"
                         },
                         new
@@ -236,6 +280,7 @@ namespace SMS.DataBaseContext.Migrations
                             Id = 13L,
                             Code = "0013U",
                             DistrictId = 1L,
+                            IsDeleted = false,
                             Name = "Nikli"
                         });
                 });

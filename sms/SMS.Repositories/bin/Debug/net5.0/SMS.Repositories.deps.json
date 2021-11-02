@@ -1040,6 +1040,15 @@
           "System.Xml.XmlDocument": "4.3.0"
         }
       },
+      "Base/1.0.0": {
+        "dependencies": {
+          "Microsoft.EntityFrameworkCore": "5.0.11",
+          "SMS.Model.Contracts": "1.0.0"
+        },
+        "runtime": {
+          "Base.dll": {}
+        }
+      },
       "SMS.DataBaseContext/1.0.0": {
         "dependencies": {
           "Microsoft.EntityFrameworkCore": "5.0.11",
@@ -1064,6 +1073,10 @@
         }
       },
       "SMS.Repositories.Abastractions/1.0.0": {
+        "dependencies": {
+          "Base": "1.0.0",
+          "SMS.Models": "1.0.0"
+        },
         "runtime": {
           "SMS.Repositories.Abastractions.dll": {}
         }
@@ -1733,6 +1746,11 @@
       "sha512": "sha512-MYoTCP7EZ98RrANESW05J5ZwskKDoN0AuZ06ZflnowE50LTpbR5yRg3tHckTVm5j/m47stuGgCrCHWePyHS70Q==",
       "path": "system.xml.xmlserializer/4.3.0",
       "hashPath": "system.xml.xmlserializer.4.3.0.nupkg.sha512"
+    },
+    "Base/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     },
     "SMS.DataBaseContext/1.0.0": {
       "type": "project",

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace AmarDaktar.Model.Contracts.EntityContracts
+namespace SMS.Model.Contracts.EntityContracts
 {
     public interface IEntity
     {

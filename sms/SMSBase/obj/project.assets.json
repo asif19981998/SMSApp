@@ -1993,9 +1993,26 @@
           "bin/placeholder/SMS.Model.Contracts.dll": {}
         }
       },
+      "SMS.Models/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "SMS.Model.Contracts": "1.0.0"
+        },
+        "compile": {
+          "bin/placeholder/SMS.Models.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/SMS.Models.dll": {}
+        }
+      },
       "SMS.Repositories.Abastractions/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
+        "dependencies": {
+          "Base": "1.0.0",
+          "SMS.Models": "1.0.0"
+        },
         "compile": {
           "bin/placeholder/SMS.Repositories.Abastractions.dll": {}
         },
@@ -6614,6 +6631,11 @@
       "type": "project",
       "path": "../SMS.Model.Contracts/SMS.Model.Contracts.csproj",
       "msbuildProject": "../SMS.Model.Contracts/SMS.Model.Contracts.csproj"
+    },
+    "SMS.Models/1.0.0": {
+      "type": "project",
+      "path": "../SMS.Models/SMS.Models.csproj",
+      "msbuildProject": "../SMS.Models/SMS.Models.csproj"
     },
     "SMS.Repositories.Abastractions/1.0.0": {
       "type": "project",

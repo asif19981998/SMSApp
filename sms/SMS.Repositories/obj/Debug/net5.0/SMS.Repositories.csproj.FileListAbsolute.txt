@@ -19,3 +19,5 @@ E:\stock manage viva\sms\SMS.Repositories\obj\Debug\net5.0\SMS.Repositories.cspr
 E:\stock manage viva\sms\SMS.Repositories\obj\Debug\net5.0\SMS.Repositories.dll
 E:\stock manage viva\sms\SMS.Repositories\obj\Debug\net5.0\ref\SMS.Repositories.dll
 E:\stock manage viva\sms\SMS.Repositories\obj\Debug\net5.0\SMS.Repositories.pdb
+E:\stock manage viva\sms\SMS.Repositories\bin\Debug\net5.0\Base.dll
+E:\stock manage viva\sms\SMS.Repositories\bin\Debug\net5.0\Base.pdb

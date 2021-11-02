@@ -14,7 +14,10 @@
   </ItemGroup>
 
   <ItemGroup>
+    <ProjectReference Include="..\SMS.BLL\SMS.BLL.csproj" />
     <ProjectReference Include="..\SMS.DataBaseContext\SMS.DataBaseContext.csproj" />
+    <ProjectReference Include="..\SMS.IoCContainer\SMS.IoCContainer.csproj" />
+    <ProjectReference Include="..\SMSBase\SMSBase.csproj" />
   </ItemGroup>
 
 </Project>

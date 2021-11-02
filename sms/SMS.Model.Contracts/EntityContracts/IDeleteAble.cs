@@ -1,4 +1,5 @@
-﻿using System;
+﻿using SMS.Model.Contracts.EntityContracts;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;

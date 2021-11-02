@@ -9,6 +9,7 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using SMS.DataBaseContext;
+using SMS.IoCContainer;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -36,6 +37,8 @@ namespace sms
             });
             services.AddDbContext<SMSDbContext>(option =>
             option.UseSqlServer(Configuration.GetConnectionString("AppConnectionString")));
+            IoCContainer.Configure(services);
+
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.

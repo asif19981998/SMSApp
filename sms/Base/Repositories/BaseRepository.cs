@@ -2,6 +2,7 @@
 using AmarDaktar.Model.Contracts.EntityContracts;
 using Base.Contracts;
 using Microsoft.EntityFrameworkCore;
+using SMS.Model.Contracts.EntityContracts;
 using System;
 using System.Collections.Generic;
 using System.Linq;
