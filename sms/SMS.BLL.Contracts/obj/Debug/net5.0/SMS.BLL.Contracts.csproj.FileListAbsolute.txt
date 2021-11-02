@@ -1,0 +1,12 @@
+E:\stock manage viva\sms\SMS.BLL.Contracts\bin\Debug\net5.0\SMS.BLL.Contracts.deps.json
+E:\stock manage viva\sms\SMS.BLL.Contracts\bin\Debug\net5.0\SMS.BLL.Contracts.dll
+E:\stock manage viva\sms\SMS.BLL.Contracts\bin\Debug\net5.0\ref\SMS.BLL.Contracts.dll
+E:\stock manage viva\sms\SMS.BLL.Contracts\bin\Debug\net5.0\SMS.BLL.Contracts.pdb
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.csproj.AssemblyReference.cache
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.GeneratedMSBuildEditorConfig.editorconfig
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.AssemblyInfoInputs.cache
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.AssemblyInfo.cs
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.csproj.CoreCompileInputs.cache
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.dll
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\ref\SMS.BLL.Contracts.dll
+E:\stock manage viva\sms\SMS.BLL.Contracts\obj\Debug\net5.0\SMS.BLL.Contracts.pdb
