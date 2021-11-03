@@ -8,7 +8,6 @@
     ".NETCoreApp,Version=v5.0": {
       "SMS.BLL.Contracts/1.0.0": {
         "dependencies": {
-          "SMS.BLL": "1.0.0",
           "SMSBase": "1.0.0"
         },
         "runtime": {
@@ -1336,15 +1335,6 @@
           "Base.dll": {}
         }
       },
-      "SMS.BLL/1.0.0": {
-        "dependencies": {
-          "Base": "1.0.0",
-          "SMS.Models": "1.0.0"
-        },
-        "runtime": {
-          "SMS.BLL.dll": {}
-        }
-      },
       "SMS.Model.Contracts/1.0.0": {
         "runtime": {
           "SMS.Model.Contracts.dll": {}
@@ -2284,11 +2274,6 @@
       "hashPath": "system.xml.xmldocument.4.3.0.nupkg.sha512"
     },
     "Base/1.0.0": {
-      "type": "project",
-      "serviceable": false,
-      "sha512": ""
-    },
-    "SMS.BLL/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

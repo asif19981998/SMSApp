@@ -3,7 +3,7 @@ using AmarDaktarApp.Controllers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SMS.BLL.IEntityService;
+using SMS.BLL.Contracts.IEntityService;
 using SMS.Models;
 using System;
 using System.Collections.Generic;
@@ -62,11 +62,11 @@ namespace sms.Controllers
         // PUT api/<ProductController>/5
         [HttpPut]
         [Route("Update")]
-        public async Task<IActionResult> Update(Product doctor)
+        public async Task<IActionResult> Update(Product product)
         {
             try
             {
-                var result = await _service.UpdateAsync(doctor);
+                var result = await _service.UpdateAsync(product);
                 return Ok(result);
             }
             catch (Exception ex)

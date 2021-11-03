@@ -12,9 +12,8 @@ namespace SMS.Models
         public long Id { get; set; }
         public long ProductId { get; set; }
         public virtual Product Product { get; set; }
-        public int Total { get; set; }
-        public long DistictId { get; set; }
-        public virtual District District { get; set; }
+        public int Quantity { get; set; }
+       
         public long UpazilaId { get; set; }
         public virtual Upazila Upazila { get; set; }
         public bool IsDeleted { get; set; }

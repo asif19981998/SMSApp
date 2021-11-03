@@ -1983,20 +1983,6 @@
           "bin/placeholder/Base.dll": {}
         }
       },
-      "SMS.BLL/1.0.0": {
-        "type": "project",
-        "framework": ".NETCoreApp,Version=v5.0",
-        "dependencies": {
-          "Base": "1.0.0",
-          "SMS.Models": "1.0.0"
-        },
-        "compile": {
-          "bin/placeholder/SMS.BLL.dll": {}
-        },
-        "runtime": {
-          "bin/placeholder/SMS.BLL.dll": {}
-        }
-      },
       "SMS.Model.Contracts/1.0.0": {
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
@@ -6658,11 +6644,6 @@
       "path": "../Base/Base.csproj",
       "msbuildProject": "../Base/Base.csproj"
     },
-    "SMS.BLL/1.0.0": {
-      "type": "project",
-      "path": "../SMS.BLL/SMS.BLL.csproj",
-      "msbuildProject": "../SMS.BLL/SMS.BLL.csproj"
-    },
     "SMS.Model.Contracts/1.0.0": {
       "type": "project",
       "path": "../SMS.Model.Contracts/SMS.Model.Contracts.csproj",
@@ -6686,7 +6667,6 @@
   },
   "projectFileDependencyGroups": {
     "net5.0": [
-      "SMS.BLL >= 1.0.0",
       "SMSBase >= 1.0.0"
     ]
   },
@@ -6717,9 +6697,6 @@
         "net5.0": {
           "targetAlias": "net5.0",
           "projectReferences": {
-            "E:\\stock manage viva\\sms\\SMS.BLL\\SMS.BLL.csproj": {
-              "projectPath": "E:\\stock manage viva\\sms\\SMS.BLL\\SMS.BLL.csproj"
-            },
             "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj": {
               "projectPath": "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj"
             }

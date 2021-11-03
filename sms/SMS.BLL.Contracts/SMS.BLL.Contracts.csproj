@@ -5,7 +5,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <ProjectReference Include="..\SMS.BLL\SMS.BLL.csproj" />
     <ProjectReference Include="..\SMSBase\SMSBase.csproj" />
   </ItemGroup>
 

@@ -3,7 +3,8 @@ using AmarDaktarApp.Controllers;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
-using SMS.BLL.IEntityService;
+using SMS.BLL.Contracts.IEntityService;
+
 using SMS.Models;
 using System;
 using System.Collections.Generic;
@@ -29,15 +30,10 @@ namespace sms.Controllers
         }
         
         [HttpGet]
-        public ActionResult<IEnumerable<District>> GetDistrict()
+        public ICollection<District> GetDistrict()
         {
-            var data = _service.GetAll()
-                .Select(x => new District()
-                {
-                    Id = x.Id,
-                    Name = x.Name,
-                  
-                }).ToList();
+            var data = _service.GetAll();
+               
 
             return data;
         }

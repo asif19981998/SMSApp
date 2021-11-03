@@ -10,8 +10,8 @@ using SMS.DataBaseContext;
 namespace SMS.DataBaseContext.Migrations
 {
     [DbContext(typeof(SMSDbContext))]
-    [Migration("20211102183437_add stock model")]
-    partial class addstockmodel
+    [Migration("20211103074308_initial")]
+    partial class initial
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
@@ -162,27 +162,19 @@ namespace SMS.DataBaseContext.Migrations
                     b.Property<DateTime?>("DeletedOn")
                         .HasColumnType("datetime2");
 
-                    b.Property<long>("DistictId")
-                        .HasColumnType("bigint");
-
-                    b.Property<long?>("DistrictId")
-                        .HasColumnType("bigint");
-
                     b.Property<bool>("IsDeleted")
                         .HasColumnType("bit");
 
                     b.Property<long>("ProductId")
                         .HasColumnType("bigint");
 
-                    b.Property<int>("Total")
+                    b.Property<int>("Quantity")
                         .HasColumnType("int");
 
                     b.Property<long>("UpazilaId")
                         .HasColumnType("bigint");
 
                     b.HasKey("Id");
-
-                    b.HasIndex("DistrictId");
 
                     b.HasIndex("ProductId");
 
@@ -342,10 +334,6 @@ namespace SMS.DataBaseContext.Migrations
 
             modelBuilder.Entity("SMS.Models.Stock", b =>
                 {
-                    b.HasOne("SMS.Models.District", "District")
-                        .WithMany("Stocks")
-                        .HasForeignKey("DistrictId");
-
                     b.HasOne("SMS.Models.Product", "Product")
                         .WithMany("Stocks")
                         .HasForeignKey("ProductId")
@@ -357,8 +345,6 @@ namespace SMS.DataBaseContext.Migrations
                         .HasForeignKey("UpazilaId")
                         .OnDelete(DeleteBehavior.Cascade)
                         .IsRequired();
-
-                    b.Navigation("District");
 
                     b.Navigation("Product");
 
@@ -378,8 +364,6 @@ namespace SMS.DataBaseContext.Migrations
 
             modelBuilder.Entity("SMS.Models.District", b =>
                 {
-                    b.Navigation("Stocks");
-
                     b.Navigation("Upazila");
                 });
 

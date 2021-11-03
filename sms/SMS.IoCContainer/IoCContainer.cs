@@ -1,8 +1,9 @@
 ﻿using AmarDaktar.Repositories.Abastractions.IUnitWork;
 using AmarDaktar.Repositories.UnitOfWork;
 using Microsoft.Extensions.DependencyInjection;
-using SMS.BLL.Contracts.EntityService;
-using SMS.BLL.IEntityService;
+using SMS.BLL.Contracts.IEntityService;
+using SMS.BLL.EntityService;
+using SMS.BLLEntityService;
 using SMS.DataBaseContext;
 using SMS.Repositories.Abastractions.IEntity;
 using SMS.Repositories.EntityRepo;
@@ -26,6 +27,8 @@ namespace SMS.IoCContainer
             services.AddTransient<IDivisonRepository, DivisonRepository>();
             services.AddTransient<IUpazilaService, UpazilaService>();
             services.AddTransient<IUpazilaRepository, UpazilaRepository>();
+            services.AddTransient<IStockService, StockService>();
+            services.AddTransient<IStockRepository, StockRepository>();
 
             services.AddTransient<IUnitOfWork, UnitOfWork>();
             services.AddTransient<SMSDbContext>();

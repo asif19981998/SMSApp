@@ -1,6 +1,6 @@
 ﻿using AmarDaktar.Repositories.Abastractions.IUnitWork;
 using AmarDaktarApp.AppBaseControllerServiceRepository;
-using SMS.BLL.IEntityService;
+using SMS.BLL.Contracts.IEntityService;
 using SMS.Models;
 using SMS.Repositories.Abastractions.IEntity;
 using System;
@@ -9,15 +9,15 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMS.BLL.Contracts.EntityService
+namespace SMS.BLL.EntityService
 {
-    public class ProductService : AppBaseService<Product>, IProductService
+    public class DistrictService : AppBaseService<District>, IDistrictService
     {
-        private IProductRepository _repository;
-        public ProductService(IProductRepository iRepository, IUnitOfWork iUnitOfWork) : base(iRepository, iUnitOfWork)
+        private IDistrictRepository _repository;
+        public DistrictService(IDistrictRepository iRepository, IUnitOfWork iUnitOfWork) : base(iRepository, iUnitOfWork)
         {
             _repository = iRepository;
 
         }
     }
-    }
+}

@@ -2590,7 +2590,10 @@
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
           "Base": "1.0.0",
-          "SMS.Models": "1.0.0"
+          "SMS.BLL.Contracts": "1.0.0",
+          "SMS.Models": "1.0.0",
+          "SMS.Repositories.Abastractions": "1.0.0",
+          "SMSBase": "1.0.0"
         },
         "compile": {
           "bin/placeholder/SMS.BLL.dll": {}
@@ -2603,7 +2606,6 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v5.0",
         "dependencies": {
-          "SMS.BLL": "1.0.0",
           "SMSBase": "1.0.0"
         },
         "compile": {

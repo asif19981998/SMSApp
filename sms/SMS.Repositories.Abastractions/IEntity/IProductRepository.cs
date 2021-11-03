@@ -9,7 +9,7 @@ using System.Threading.Tasks;
 namespace SMS.Repositories.Abastractions.IEntity
 {
   
-    public interface IProductRepository : IMainRepository<Product>
+    public interface IStockRepository : IMainRepository<Stock>
     {
     }
 }

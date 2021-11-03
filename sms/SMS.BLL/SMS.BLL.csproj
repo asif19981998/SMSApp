@@ -6,7 +6,10 @@
 
   <ItemGroup>
     <ProjectReference Include="..\Base\Base.csproj" />
+    <ProjectReference Include="..\SMS.BLL.Contracts\SMS.BLL.Contracts.csproj" />
     <ProjectReference Include="..\SMS.Models\SMS.Models.csproj" />
+    <ProjectReference Include="..\SMS.Repositories.Abastractions\SMS.Repositories.Abastractions.csproj" />
+    <ProjectReference Include="..\SMSBase\SMSBase.csproj" />
   </ItemGroup>
 
 </Project>

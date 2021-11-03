@@ -17,3 +17,9 @@ E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\Base.pdb
 E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.Models.pdb
 E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.Model.Contracts.pdb
 E:\stock manage viva\sms\SMS.BLL\obj\Debug\net5.0\SMS.BLL.csproj.CopyComplete
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.BLL.Contracts.dll
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.Repositories.Abastractions.dll
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMSBase.dll
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.BLL.Contracts.pdb
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMS.Repositories.Abastractions.pdb
+E:\stock manage viva\sms\SMS.BLL\bin\Debug\net5.0\SMSBase.pdb

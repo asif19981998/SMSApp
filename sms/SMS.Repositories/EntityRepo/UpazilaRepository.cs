@@ -17,5 +17,10 @@ namespace SMS.Repositories.EntityRepo
         {
             _db = db;
         }
+
+        public IEnumerable<Upazila> GetUpazilasByDivisonId(int disId)
+        {
+            return _db.Upazilas.ToList().Where(u => u.DistrictId == disId);
+        }
     }
 }

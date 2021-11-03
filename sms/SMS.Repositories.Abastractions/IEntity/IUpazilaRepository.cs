@@ -10,5 +10,6 @@ namespace SMS.Repositories.Abastractions.IEntity
 {
     public interface IUpazilaRepository : IMainRepository<Upazila>
     {
+        IEnumerable<Upazila> GetUpazilasByDivisonId(int disId);
     }
 }

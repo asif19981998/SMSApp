@@ -6,9 +6,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMS.BLL.IEntityService
+namespace SMS.BLL.Contracts.IEntityService
 {
-    public interface IUpazilaService : IMainService<Upazila>
+    public interface IProductService : IMainService<Product>
     {
     }
 }

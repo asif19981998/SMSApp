@@ -92,9 +92,6 @@
           "net5.0": {
             "targetAlias": "net5.0",
             "projectReferences": {
-              "E:\\stock manage viva\\sms\\SMS.BLL\\SMS.BLL.csproj": {
-                "projectPath": "E:\\stock manage viva\\sms\\SMS.BLL\\SMS.BLL.csproj"
-              },
               "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj": {
                 "projectPath": "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj"
               }
@@ -156,8 +153,17 @@
               "E:\\stock manage viva\\sms\\Base\\Base.csproj": {
                 "projectPath": "E:\\stock manage viva\\sms\\Base\\Base.csproj"
               },
+              "E:\\stock manage viva\\sms\\SMS.BLL.Contracts\\SMS.BLL.Contracts.csproj": {
+                "projectPath": "E:\\stock manage viva\\sms\\SMS.BLL.Contracts\\SMS.BLL.Contracts.csproj"
+              },
               "E:\\stock manage viva\\sms\\SMS.Models\\SMS.Models.csproj": {
                 "projectPath": "E:\\stock manage viva\\sms\\SMS.Models\\SMS.Models.csproj"
+              },
+              "E:\\stock manage viva\\sms\\SMS.Repositories.Abastractions\\SMS.Repositories.Abastractions.csproj": {
+                "projectPath": "E:\\stock manage viva\\sms\\SMS.Repositories.Abastractions\\SMS.Repositories.Abastractions.csproj"
+              },
+              "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj": {
+                "projectPath": "E:\\stock manage viva\\sms\\SMSBase\\SMSBase.csproj"
               }
             }
           }

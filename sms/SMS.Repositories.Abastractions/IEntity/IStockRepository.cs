@@ -6,9 +6,10 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace SMS.BLL.IEntityService
+namespace SMS.Repositories.Abastractions.IEntity
 {
-    public interface IProductService : IMainService<Product>
+  
+    public interface IProductRepository : IMainRepository<Product>
     {
     }
 }
